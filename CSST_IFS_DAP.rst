@@ -4,6 +4,9 @@ CSST-IFS-DAP算法文档
 CSST-IFS的1级数据类型包括RSS和CUBE。每个星系的IFS光谱数据保存为一个fits文件，可通过文件名或文件索引号获取。
 结合IFS不同巡天的数据使用习惯，IFS的二级数据文件将基于CUBE光谱数据做分析。
 CSST-IFS的二级数据处理流程的软件管线称为DAP，DAP处理流程的主要功能包为星系光谱的相关科学参数提取。与之相应，DAP生成的 二级数据fits文件定义为MAP，以和一级数据的CUBE做区分。MAP命名的fits文件作为DAP的最终入库数据产品。
+CSST-IFS二级数据命名格式：CSST_IFS_MAP_{OBJ_id}_bintype_DAPVER_DRPVER.fits。
+其中CSST_IFS_MAP为文件名前缀；objid是观测源编号，从一级数据继承； bintype为科学目标的类型，表征空间数据叠加的类型，有spax，var，hyb，all等类型，默认为spax，即不在空间上进行叠加。 DAPVER是DAP的版本号，为1位字符串’M’和4位数字，例如M2103是DAP合成模块v2.1.03处理所得结果; DRPVER是生成CUBE文件的一级数据管线DRP的版本号，为一位字符串‘C’和四位数字组合，例如C1201表示本文件对应的CUBE文件由版本号1.2.01的DRP所生成。
+
 
 CUBE光谱预处理模块
 """""""""""""""""""""
@@ -12,7 +15,7 @@ IFS 数据分析软件从L1-CUBE数据中读取光谱的波长，流量，流量
 
 输入
 ~~~~~~~~~~~~~~~~
-L1-CUBE光谱立方数据（CSST_IFS_CUBE_{OBJ_id}\ *{VER_cube}*\ {LIN/LOG}_{STM_cube}.fits）
+L1-CUBE光谱立方数据（CSST_IFS_CUBE_OBJ_id_VER_cube_{LIN/LOG}_{STM_cube}.fits）
 
 输出
 ~~~~~~~~~~~~~~~~
