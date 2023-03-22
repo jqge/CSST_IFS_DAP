@@ -47,19 +47,19 @@ Header of ``csst_ifs_dap``
 |     |           |                           |      | e |             |
 +=====+===========+===========================+======+===+=============+
 | R   | R6100     | version of RSS code       | R    | s | cs          |
-| SS_ |           |                           | XXXX | t | st_ifs_cube |
+| SS_ |           |                           | XXXX | t | st_ifs_rss  |
 | VER |           |                           |      | r |             |
 +-----+-----------+---------------------------+------+---+-------------+
 | C   | C6100     | version of CUBE code      | C    | s | cs          |
 | UB_ |           |                           | XXXX | t | st_ifs_cube |
 | VER |           |                           |      | r |             |
 +-----+-----------+---------------------------+------+---+-------------+
-| C   | C6100     | version of CUBE code      | C    | s | cs          |
-| OV_ |           |                           | XXXX | t | st_ifs_cube |
+| C   | C6100     | version of COV code       | C    | s | cs          |
+| OV_ |           |                           | XXXX | t | st_ifs_cov  |
 | VER |           |                           |      | r |             |
 +-----+-----------+---------------------------+------+---+-------------+
-| L   | C6100     | version of CUBE code      | C    | s | cs          |
-| SF_ |           |                           | XXXX | t | st_ifs_cube |
+| L   | C6100     | version of LSF code       | C    | s | cs          |
+| SF_ |           |                           | XXXX | t | st_ifs_lsf |
 | VER |           |                           |      | r |             |
 +-----+-----------+---------------------------+------+---+-------------+
 | D   | C6100     | version of DAP code       | C    | s | cs          |
