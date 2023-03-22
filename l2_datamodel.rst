@@ -10,7 +10,7 @@ File name description
 | objid：观测源编号，从一级数据继承
 | bintype：科学目标的类型，表征空间数据叠加的类型，有spax，var，hyb，all等类型，默认为spax，即不在空间上进行叠加。
 | DAPVER是DAP的版本号，为1位字符串’M’和4位数字，例如M2103是DAP合成模块v2.1.03处理所得结果
-| DRPVER是生成CUBE文件的一级数据管线DRP的版本号，为一位字符串‘C’和四位数字组合，例如C1201表示本文件对应的CUBE文件由版本号1.2.01的DRP所生成。
+| DRPVER是从一级数据继承。
 
 File contents
 ~~~~~~~~~~~~~
