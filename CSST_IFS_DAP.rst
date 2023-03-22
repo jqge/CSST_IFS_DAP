@@ -90,7 +90,7 @@ L2-precube (光谱分析临时文件)
 
 输入
 ~~~~~~~~~~~~~~~~
-L2-CUBE，L2-precube-star
+L2-CUBE，L2-precube-star，L2-precube-gas
 
 输出
 ~~~~~~~~~~~~~~~~
