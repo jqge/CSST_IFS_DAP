@@ -46,9 +46,9 @@ Header of ``csst_ifs_dap``
 | ord |           |                           | alue | p |             |
 |     |           |                           |      | e |             |
 +=====+===========+===========================+======+===+=============+
-| R   | R6100     | version of RSS code       | R    | s | cs          |
-| SS_ |           |                           | XXXX | t | st_ifs_rss  |
-| VER |           |                           |      | r |             |
+| RSS_| R6100     | version of RSS code       | R    | s | cs          |
+| VER |           |                           | XXXX | t | st_ifs_rss  |
+|     |           |                           |      | r |             |
 +-----+-----------+---------------------------+------+---+-------------+
 | C   | C6100     | version of CUBE code      | C    | s | cs          |
 | UB_ |           |                           | XXXX | t | st_ifs_cube |
